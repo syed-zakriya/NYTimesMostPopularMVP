@@ -99,12 +99,14 @@ public class MostPopularActivity extends AppCompatActivity implements AppContrac
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
-                adapter.getFilter().filter(query);
+                if(adapter!=null)
+                    adapter.getFilter().filter(query);
                 return false;
             }
             @Override
             public boolean onQueryTextChange(String newText) {
-                adapter.getFilter().filter(newText);
+                if(adapter!=null)
+                    adapter.getFilter().filter(newText);
                 return false;
             }
         });

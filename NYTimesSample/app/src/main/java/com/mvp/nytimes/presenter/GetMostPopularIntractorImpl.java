@@ -125,8 +125,4 @@ public class GetMostPopularIntractorImpl implements AppContractMvp.GetMostPopula
         queue.add(stringRequest);
     }
 
-    public int addMe(int i, int j){
-        return  i+j;
-    }
-
 }

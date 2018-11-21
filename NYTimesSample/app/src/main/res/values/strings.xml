@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NY-Times-Sample</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="toolbar_title">NY Times Most Popular</string>
+    <string name="loading_text">Loading...</string>
+    <string name="msg_text">Message</string>
+    <string name="status_text">Status Code</string>
+    <string name="no_connection">No internet connection available</string>
+    <string name="network_error">An error occured</string>
+    <string name="not_found_error">404 Not Found</string>
+    <string name="server_error">Server Error. Some error has occured on server side</string>
+    <string name="session_exp_error">Session expired</string>
+    <string name="timeout_error">Connection TimeOut! Please check your internet connection</string>
+    <string name="no_items_text">No items in the list</string>
+
+
+</resources>
